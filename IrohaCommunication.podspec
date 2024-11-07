@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.preserve_paths = 'ProtoGen/*.{h,m}'
 
   s.dependency 'IrohaCrypto/Iroha', '~> 0.3.0'
-  s.dependency 'gRPC-ProtoRPC', '~> 1.11.0'
+  s.dependency 'gRPC-ProtoRPC', '~> 1.67.0'
   s.dependency 'Protobuf', '~> 3.5.0'
   s.dependency 'BoringSSL', '~> 10.0.3'
   s.dependency 'nanopb', '~> 0.3.8'
